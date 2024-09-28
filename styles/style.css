@@ -1,0 +1,35 @@
+html {
+	font-size: 10px;
+	font-family: 'Inknut Antiqua', serif; /*Taken from https://fonts.bunny.net/family/inknut-antiqua , reminds me of CRPG fonts*/
+	background-color: #8e684f;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: black;
+	text-shadow: 3px 3px 1px #a69d6f;
+
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #FCF5E5;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
