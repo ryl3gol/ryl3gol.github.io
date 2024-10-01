@@ -2,13 +2,14 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
 	const mySrc = myImage.getAttribute("src");
-	if (mySrc === "https://s3.amazonaws.com/files.d20.io/marketplace/248506/G5ufSQ1yTocG37-dJsGEMQ/max.jpg"){
-		myImage.setAttribute("src", "https://s3.amazonaws.com/files.d20.io/images/148473649/MUZKRvqLQmMpzlQP8VjBTA/max.jpg");
+	if (mySrc === "images/Delethon_Map.jpg"){
+		myImage.setAttribute("src", "images/FoF_Cover.jpg");
 	} else {
-		myImage.setAttribute("src", "https://s3.amazonaws.com/files.d20.io/marketplace/248506/G5ufSQ1yTocG37-dJsGEMQ/max.jpg");
+		myImage.setAttribute("src", "images/Delethon_Map.jpg");
 	}
 };
 
+/*
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
@@ -19,7 +20,7 @@ function setUserName() {
 	} else {
 		localStorage.setItem("name", myName);
 		myHeading.textContent = `Welcome to Delethon, ${myName}`;
-	}
+	}	
 }
 
 if (!localStorage.getItem("name")) {
@@ -32,3 +33,4 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
 	setUserName();
 };
+*/
